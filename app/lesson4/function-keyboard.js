@@ -3,11 +3,11 @@ let keyboardPrice = 800;
 let moneyEnough = moneyHave >= keyboardPrice;
 
 function buykeyboard() {
-    console.log("ซื้อคีย์บอร์ด");   
+    console.log("ซื้อคีย์บอร์ดเงินพอ");   
 }
 
 function dontbuykeyboard() {
-    console.log("ไม่ซื้อคีย์บอร์ด");   
+    console.log("ไม่ซื้อคีย์บอร์ดเงินไม่พอ");   
 }
 
 if (moneyEnough) {
